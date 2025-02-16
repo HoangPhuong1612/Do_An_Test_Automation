@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > <!--bắt buộc có để hiểu là tài liệu của nó-->
+
+<suite name="Suite Search" verbose="1"> <!--bộ chạy test, trong 1 file xml chỉ có 1 bộ suite-->
+    <test name="Search Test"> <!--đại diện cho 1 module test, có thể có nhiều bộ <test> </test>-->
+        <classes> <!--thông qua class-->
+            <class name="com.hoangphuong.testcases.chuc_nang_chung.Search_Test" />
+        </classes>
+    </test>
+
+</suite>
